@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    color: red;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0px black;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.images img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.images img {
+    width: 400px;
+    height: 400px; /* Define uma altura fixa */
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
