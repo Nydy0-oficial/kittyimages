@@ -44,3 +44,19 @@ h1 {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
   /* Aplica sombra */
 }
+
+h2 {
+  font-family: "Arial", ;
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgb(150, 152, 151);
+}
+ 
+h3 {
+  font-family: "Arial", ;
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
